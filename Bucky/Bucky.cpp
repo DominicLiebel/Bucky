@@ -1,16 +1,20 @@
 #include "stdafx.h"
 #include <iostream>
+
 using namespace std;
-int addNumbers(int x, int y);
 
 
+int main() 
+{
 
-int main() {
-    cout << addNumbers(43, 5) << "\n";
-    return 0;
-}
+  int x;
+  x = 77;
+  if (x > 60) {
+    cout << "You are fricken old"<< endl;
+  }
+  else {
+    cout << "Hey, get a job!!"<< endl;
+  }
 
-int addNumbers(int x, int y){
-  int answer = x + y;
-  return answer;
+  return 0;
 }
