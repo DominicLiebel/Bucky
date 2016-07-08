@@ -4,17 +4,16 @@
 using namespace std;
 
 
-int main() 
+int main()
 {
+  int bacon;
+  bacon = 0;
 
-  int x;
-  x = 77;
-  if (x > 60) {
-    cout << "You are fricken old"<< endl;
-  }
-  else {
-    cout << "Hey, get a job!!"<< endl;
-  }
+  while (bacon <= 5) {
+    bacon++;
+  cout << bacon << endl;
+}
+
 
   return 0;
 }
