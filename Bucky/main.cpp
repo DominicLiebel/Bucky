@@ -3,17 +3,29 @@
 using namespace std;
 
 
+void printNumber(int x);
+void printNumber(float x);
+
 
 int main()
 {
+  int a = 54;
+  float b = 32.4896;
 
-  int x = 1;
-
-  do {
-    cout << x << endl;
-    x++;
-  } while (x<10);
-
+  printNumber(a);
+  printNumber(b);
 
   return 0;
+}
+
+
+
+
+
+void printNumber(int x) {
+  cout << "I am printing an integer " << x << endl;
+}
+
+void printNumber(float x) {
+  cout << "I am priting a float " << x << endl;
 }
