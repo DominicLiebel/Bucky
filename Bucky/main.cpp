@@ -3,29 +3,15 @@
 using namespace std;
 
 
-void printNumber(int x);
-void printNumber(float x);
-
-
 int main()
 {
-  int a = 54;
-  float b = 32.4896;
+  int tuna[5] = {20,54,76,832,546};
+  int sum = 0;
 
-  printNumber(a);
-  printNumber(b);
+  for (int x = 0; x < 5; x++) {
+    sum += tuna[x];
+    cout << sum << endl;
+  }
 
   return 0;
-}
-
-
-
-
-
-void printNumber(int x) {
-  cout << "I am printing an integer " << x << endl;
-}
-
-void printNumber(float x) {
-  cout << "I am priting a float " << x << endl;
 }
